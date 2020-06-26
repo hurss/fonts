@@ -6,7 +6,7 @@
 
 I have created a series of DOS-style fonts from bitmap binary data. We are support TTF and BDF format.
 
-Each license of fonts is based on MIT License, but they can use for social media (Youtube and so on) **except Miraero font**.
+Each license of fonts is based on MIT License, but they can use for commecial propose or subtitles of social media (Youtube and so on).
 
 CJK Ideographs are imported from Hanme-hangul (KS X 1001 Hanja; one of hangul input method in DOS) and jiskan16(https://ja.wikipedia.org/wiki/Jiskan) (JIS X 0213:2004 Kanji); which designed by Imamura and Hanataka from Japan Electronics and Information Technology Industries Association. Still, we will need to resolve minor issues.
 
@@ -16,11 +16,11 @@ Especially, Miraero Normal font only covers Unicode 1.1 glyphs without CJK Ideog
 
 비트맵 데이터를 추출하여 도스 스타일 글꼴을 만들었습니다. TTF 및 BDF를 지원합니다.
 
-해당 글꼴들은 기본적으로 MIT 라이선스에 기반을 두고 있으나, 미래로글꼴을 제외한 글꼴은 유튜브 등 SNS용 자막으로도 사용이 가능합니다.
+해당 글꼴들은 기본적으로 MIT 라이선스에 기반을 두고 있으나, 상업 목적이나 유튜브 등 SNS용 자막으로도 사용이 가능합니다.
 
 한자 글꼴은 도스용 한메한글 한자 글꼴 (KS X 1001 부분) 및 [jiskan16](https://ja.wikipedia.org/wiki/Jiskan) (JIS X 0213:2004)에서 추출하였습니다. 하지만 약간의 문제점을 해결하여야 할 것입니다.
 
-특히 미래로 글꼴은 한자를 제외하고 유니코드 1.1 문자들을 커버합니다. 해당 BDF는 24x24 비트맵 글꼴입니다.
+특히 미래로 글꼴은 한자를 제외한 유니코드 1.1 문자들을 커버합니다. 해당 BDF는 24x24 비트맵 글꼴입니다.
 
 ### Font Lists
 
@@ -48,6 +48,8 @@ LINUX reserves its console or terminal.
 
 ### Version History
 
+* 0.43 (2020/06/27)
+  * Change minor fix: MiraeroNormal font can use commercially
 * 0.42 (2020/06/18)
   * Change licenses for social media
 * 0.41 (2018/04/24)
