@@ -1,5 +1,5 @@
 The MIT License (MIT)
-Copyright (c) 2016 Damheo Lee (leedheo@gmail.com),
+Copyright (c) 2016-2022 Damheo Lee (이담허) (leedheo@gmail.com),
 with Reserved Font Name DOSMyungjo, DOSGothic, DOSSaemmul, Sam3KRFont, MiraeroNormal,
 its OTF and BDF suffix name. (e.g. DOSMyungjo OTF)
 

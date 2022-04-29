@@ -2,25 +2,21 @@
 
 ## DOS-style Font
 
-### English
-
-I have created a series of DOS-style fonts from bitmap binary data. We are support TTF and BDF format.
-
-Each license of fonts is based on MIT License, but they can use for commecial propose or subtitles of social media (Youtube and so on).
-
-CJK Ideographs are imported from Hanme-hangul (KS X 1001 Hanja; one of hangul input method in DOS) and jiskan16(https://ja.wikipedia.org/wiki/Jiskan) (JIS X 0213:2004 Kanji); which designed by Imamura and Hanataka from Japan Electronics and Information Technology Industries Association. Still, we will need to resolve minor issues.
-
-Especially, Miraero Normal font only covers Unicode 1.1 glyphs without CJK Ideographs. Its BDF is 24x24 bitmap font.
-
-### Korean
-
 비트맵 데이터를 추출하여 도스 스타일 글꼴을 만들었습니다. TTF 및 BDF를 지원합니다.
 
-해당 글꼴들은 기본적으로 MIT 라이선스에 기반을 두고 있으나, 상업 목적이나 유튜브 등 SNS용 자막으로도 사용이 가능합니다.
+해당 글꼴들은 MIT 라이선스에 기반을 둡니다.
 
 한자 글꼴은 도스용 한메한글 한자 글꼴 (KS X 1001 부분) 및 [jiskan16](https://ja.wikipedia.org/wiki/Jiskan) (JIS X 0213:2004)에서 추출하였습니다. 하지만 약간의 문제점을 해결하여야 할 것입니다.
 
-특히 미래로 글꼴은 한자를 제외한 유니코드 1.1 문자들을 커버합니다. 해당 BDF는 24x24 비트맵 글꼴입니다.
+특히 미래로 글꼴은 한자를 제외하고 유니코드 1.1 문자들을 커버합니다. 해당 BDF는 24x24 비트맵 글꼴입니다.
+
+### 종류
+
+* TTF
+트루타입 방식을 사용하였습니다.
+
+* BDF
+리눅스 터미널에 사용할 수 있습니다.
 
 ### Font Lists
 
@@ -29,29 +25,43 @@ Especially, Miraero Normal font only covers Unicode 1.1 glyphs without CJK Ideog
 * DOSSaemmul (도스샘물)
 * Sam3KRFont (삼국지3글꼴) - 한자 없음 (Not contains Hanja), MS워드 사용시 자간 뭉개질 수 있음
 * MiraeroNormal (미래로 글꼴) - KS X 1001 & KS X 1002 한자 (KS X 1001 & KS X 1002 Hanja), Unicode 1.1 glyphs and Euro Sign Support
-* DOSPilgi (도스필기, 추가 예정)
-* DOSIyagi (도스이야기, 추가 예정)
 
-### Description
+### Other Font Lists
+* DOSPilgi (도스필기, 추가 예정) - 원본이 되는 글꼴이 조합형인 관계로, 완성에 시일이 걸릴 수 있습니다.
+* DOSIyagi (도스이야기, 추가 예정) - 조만간 작업 예정입니다.
+
+## FAQ
+1. 상업적 이용 문의 (라이선스 관련)
+현재 MIT 라이선스로 배포하고 있습니다.
+
+2. 영리목적 사용 (메신저 이모티콘 등)
+가능합니다. 대신 부가 설명에 ‘글꼴(폰트)로 도스샘물체(leedheo 제작)를 사용하였습니다’ 형태로 기재하시면 되겠습니다.
+ 
+3. 폰트 출처 및 이용 명시 등에 관하여
+폰트 원출처는 https://github.com/hurss/fonts 입니다. 눈누에 갱신 관련 연락을 넣어 보았으나 닉네임에 사이트 링크가 되지 않은 관계로, 출처 표시를 해 주시면 감사하겠습니다.
+
+## English Description
+
+I have created a series of DOS-style fonts from bitmap binary data. We are support TTF and BDF format.
+
+They licensed by MIT License.
+
+CJK Ideographs are imported from Hanme-hangul (KS X 1001 Hanja; one of hangul input method in DOS) and jiskan16(https://ja.wikipedia.org/wiki/Jiskan) (JIS X 0213:2004 Kanji); which designed by Imamura and Hanataka from Japan Electronics and Information Technology Industries Association. Still, we will need to resolve minor issues.
+
+Especially, Miraero Normal font only covers Unicode 1.1 glyphs without CJK Ideographs. Its BDF is 24x24 bitmap font.
+
+### Kinds by Extension
 * TTF
 It is TrueType format.
 
-트루타입 방식을 사용하였습니다.
-
 * BDF
-LINUX reserves its console or terminal.
-
-리눅스 콘솔이나 단말에 사용할 수 있습니다.
+It can used in LINUX terminal.
 
 ### Sample
 ![Font Sample](/fontsample.PNG)
 
 ### Version History
 
-* 0.43 (2020/06/27)
-  * Change minor fix: MiraeroNormal font can use commercially
-* 0.42 (2020/06/18)
-  * Change licenses for social media
 * 0.41 (2018/04/24)
   * Move Data Repository and obsolete OTF will not used
 * 0.4 (2016/10/30)
@@ -78,9 +88,6 @@ LINUX reserves its console or terminal.
 * CJK Unified Ideographs (KS X 1001 + KS X 1002 (optional) + JIS X 0213:2004)
 * CJK Unified Extension A (Compatible with JIS X 0213:2004)
 * CJK Unified Extension B (Compatible with JIS X 0213:2004)
-
-### Contact
-* leedheo@gmail.com
 
 ### References
 * [jiskan article in Wikipedia (in Japanese)](http://kanji.zinbun.kyoto-u.ac.jp/~yasuoka/ftp/fonts/)
