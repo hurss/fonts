@@ -25,10 +25,13 @@
 * DOSSaemmul (도스샘물)
 * Sam3KRFont (삼국지3글꼴) - 한자 없음 (Not contains Hanja), MS워드 사용시 자간 뭉개질 수 있음
 * MiraeroNormal (미래로 글꼴) - KS X 1001 & KS X 1002 한자 (KS X 1001 & KS X 1002 Hanja), Unicode 1.1 glyphs and Euro Sign Support
+* DOSIyagi (도스이야기) - **굵은체 글꼴** 한자와 기호는 계속 보완 예정입니다.
 
 ### Other Font Lists
 * DOSPilgi (도스필기, 추가 예정) - 원본이 되는 글꼴이 조합형인 관계로, 완성에 시일이 걸릴 수 있습니다.
-* DOSIyagi (도스이야기, 추가 예정) - 조만간 작업 예정입니다.
+
+## Sample
+![Font Sample](/fontsample.PNG)
 
 ## FAQ
 1. 상업적 이용 문의 (라이선스 관련)
@@ -57,11 +60,40 @@ It is TrueType format.
 * BDF
 It can used in LINUX terminal.
 
-### Sample
-![Font Sample](/fontsample.PNG)
+### Support Range
+* Basic Latin (기본 라틴)
+* Hangul Jamo (한글 자모)
+* Hangul Compatibility Jamo (한글 호환 자모)
+* Hangul Syllables (한글 낱자)
+* CJK Unified Ideographs (KS X 1001 + KS X 1002 (optional) + JIS X 0213:2004)
+* CJK Unified Extension A (Compatible with JIS X 0213:2004)
+* CJK Unified Extension B (Compatible with JIS X 0213:2004)
 
-### Version History
+## Version History
+### Korean
+* 0.5 (2022/05/03)
+  * DOSIyagiBoldface (이야기 굵은체)
+* 0.41 (2018/04/24)
+  * 데이터 정리, OTF글꼴 제거
+* 0.4 (2016/10/30)
+  * MiraeroNormal KS한자 업데이트
+* 0.3 (2016/10/01)
+  * MiraeroNormal 추가
+* 0.2 (2016/08/19)
+  * Sam3KRFont 추가
+  * MIT License로 변경
+  * 글꼴 파일의 압축 해제
+* 0.15 (2016/04/08)
+  * CJK한자 범위 변경
+  * 공간 절약을 위하여 파일 압축
+* 0.1 (2016/04/07)
+  * OTF, BDF (16pt) 추가
+  * 3개 글꼴 추가 (DOSMyungjo, DOSGothic and DOSSaemmul)
+  * 라틴 문자와 한글만 지원
 
+### English
+* 0.5 (2022/05/03)
+  * Add DOSIyagiBoldface (Boldface-like font)
 * 0.41 (2018/04/24)
   * Move Data Repository and obsolete OTF will not used
 * 0.4 (2016/10/30)
@@ -79,15 +111,6 @@ It can used in LINUX terminal.
   * Add OTF, BDF (16pt) format
   * Add 3 items (DOSMyungjo, DOSGothic and DOSSaemmul)
   * Only support Basic Latin and Hangul
-
-### Support Range
-* Basic Latin (기본 라틴)
-* Hangul Jamo (한글 자모)
-* Hangul Compatibility Jamo (한글 호환 자모)
-* Hangul Syllables (한글 낱자)
-* CJK Unified Ideographs (KS X 1001 + KS X 1002 (optional) + JIS X 0213:2004)
-* CJK Unified Extension A (Compatible with JIS X 0213:2004)
-* CJK Unified Extension B (Compatible with JIS X 0213:2004)
 
 ### References
 * [jiskan article in Wikipedia (in Japanese)](http://kanji.zinbun.kyoto-u.ac.jp/~yasuoka/ftp/fonts/)
