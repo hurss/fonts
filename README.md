@@ -1,4 +1,9 @@
 # Font collection
+## Acknowledgement
+
+개인적인 사정에 따라, 제시한 글꼴 외에 추가로 글꼴을 만들기 어렵게 되었습니다.
+
+**글꼴 개조 문의나 추가 글꼴 제작요청은 받지 않습니다.**
 
 ## DOS-style Font
 
@@ -6,7 +11,7 @@
 
 해당 글꼴들은 MIT 라이선스에 기반을 둡니다.
 
-한자 글꼴은 도스용 한메한글 한자 글꼴 (KS X 1001 부분) 및 [jiskan16](https://ja.wikipedia.org/wiki/Jiskan) (JIS X 0213:2004)에서 추출하였습니다. 하지만 약간의 문제점을 해결하여야 할 것입니다.
+한자 글꼴은 [jiskan16](https://ja.wikipedia.org/wiki/Jiskan) (JIS X 0213:2004)과 도스 간체자/번체자 글꼴에서 추출하였습니다.
 
 특히 미래로 글꼴은 한자를 제외하고 유니코드 1.1 문자들을 커버합니다. 해당 BDF는 24x24 비트맵 글꼴입니다.
 
@@ -25,10 +30,8 @@
 * DOSSaemmul (도스샘물)
 * Sam3KRFont (삼국지3글꼴) - 한자 없음 (Not contains Hanja), MS워드 사용시 자간 뭉개질 수 있음
 * MiraeroNormal (미래로 글꼴) - KS X 1001 & KS X 1002 한자 (KS X 1001 & KS X 1002 Hanja), Unicode 1.1 glyphs and Euro Sign Support
-* DOSIyagi (도스이야기) - **굵은체 글꼴** 한자와 기호는 계속 보완 예정입니다.
-
-### Other Font Lists
-* DOSPilgi (도스필기, 추가 예정) - 원본이 되는 글꼴이 조합형인 관계로, 완성에 시일이 걸릴 수 있습니다.
+* DOSIyagiBoldface (도스이야기) - **이야기 굵은체**
+* DOSPilgi (도스필기)
 
 ## Sample
 ![Font Sample](/fontsample.PNG)
@@ -71,6 +74,8 @@ It can used in LINUX terminal.
 
 ## Version History
 ### Korean
+* 1.0 (2022/05/07)
+  * 
 * 0.5 (2022/05/03)
   * DOSIyagiBoldface (이야기 굵은체)
 * 0.41 (2018/04/24)
@@ -92,6 +97,8 @@ It can used in LINUX terminal.
   * 라틴 문자와 한글만 지원
 
 ### English
+* 1.0 (2022/05/07)
+  * 
 * 0.5 (2022/05/03)
   * Add DOSIyagiBoldface (Boldface-like font)
 * 0.41 (2018/04/24)
