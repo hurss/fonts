@@ -75,9 +75,9 @@ It can used in LINUX terminal.
 ## Version History
 ### Korean
 * 1.0 (2022/05/07)
-  * 
+  * DOSIyagiBoldface 한자 수정, DOSPilgi (필기체) 추가
 * 0.5 (2022/05/03)
-  * DOSIyagiBoldface (이야기 굵은체)
+  * DOSIyagiBoldface (이야기 굵은체) 추가
 * 0.41 (2018/04/24)
   * 데이터 정리, OTF글꼴 제거
 * 0.4 (2016/10/30)
@@ -98,7 +98,7 @@ It can used in LINUX terminal.
 
 ### English
 * 1.0 (2022/05/07)
-  * 
+  * Correct Hanja of DOSIyagiBoldface, Add DOSPilgi
 * 0.5 (2022/05/03)
   * Add DOSIyagiBoldface (Boldface-like font)
 * 0.41 (2018/04/24)
