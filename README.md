@@ -28,10 +28,10 @@
 * DOSMyungjo (도스명조)
 * DOSGothic (도스고딕)
 * DOSSaemmul (도스샘물)
+* DOSIyagiBoldface (도스이야기 굵은체)
+* DOSPilgi (도스필기)
 * Sam3KRFont (삼국지3글꼴) - 한자 없음 (Not contains Hanja), MS워드 사용시 자간 뭉개질 수 있음
 * MiraeroNormal (미래로 글꼴) - KS X 1001 & KS X 1002 한자 (KS X 1001 & KS X 1002 Hanja), Unicode 1.1 glyphs and Euro Sign Support
-* DOSIyagiBoldface (도스이야기) - **이야기 굵은체**
-* DOSPilgi (도스필기)
 
 ## Sample
 ![Font Sample](/fontsample.PNG)
