@@ -3,6 +3,8 @@
 
 개인적인 사정에 따라, 제시한 글꼴 외에 추가로 글꼴을 만들기 어렵게 되었습니다.
 
+다운로드: https://github.com/hurss/fonts/files/8644954/fonts_220507.zip
+
 **글꼴 개조 문의나 추가 글꼴 제작요청은 받지 않습니다.**
 
 ## DOS-style Font
